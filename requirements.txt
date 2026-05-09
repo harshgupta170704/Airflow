@@ -1,0 +1,9 @@
+# ── ETL Pipeline Dependencies ──────────────────────────────────────────────
+# Playwright for async web scraping (browser automation)
+playwright==1.44.0
+
+# Pandas for data transformation and CSV/JSON I/O
+pandas==2.2.2
+
+# Apache Airflow (pinned to match the Docker base image)
+apache-airflow==2.9.2
