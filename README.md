@@ -14,15 +14,15 @@ Here is what the final working pipeline looks like in action:
 
 ### 1. Fully Orchestrated with Apache Airflow
 The entire process is automated using Apache Airflow. As you can see, the DAG runs perfectly, completing the `scrape_books`, `transform_books`, and `load_books` tasks in sequence!
-![Airflow DAG Success](docs/airflow_graph.png)
+![Airflow DAG Success](docs/airflow_graph.jpeg)
 
 ### 2. The Final Database
 After the pipeline finishes, all 1,000 books are perfectly cleaned and stored in a local SQLite database, ready for analysis.
-![Database Output](docs/db_browser.png)
+![Database Output](docs/db_browser.jpeg)
 
 ### 3. Containerized with Docker
 Everything runs in isolated Docker containers, so there's no "it works on my machine" issues. Airflow, PostgreSQL (for metadata), and the scraper all run in harmony.
-![Docker Desktop](docs/docker_desktop.png)
+![Docker Desktop](docs/docker_desktop.jpeg)
 
 *(Note: To make the images above show up in this README, create a folder named `docs` in this directory and save your screenshots there as `airflow_graph.png`, `db_browser.png`, and `docker_desktop.png`!)*
 
