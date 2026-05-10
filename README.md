@@ -24,7 +24,7 @@ After the pipeline finishes, all 1,000 books are perfectly cleaned and stored in
 Everything runs in isolated Docker containers, so there's no "it works on my machine" issues. Airflow, PostgreSQL (for metadata), and the scraper all run in harmony.
 ![Docker Desktop](docs/docker_desktop.jpeg)
 
-*(Note: To make the images above show up in this README, create a folder named `docs` in this directory and save your screenshots there as `airflow_graph.png`, `db_browser.png`, and `docker_desktop.png`!)*
+
 
 ---
 
